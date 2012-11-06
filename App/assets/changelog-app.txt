@@ -1,0 +1,2 @@
+04/11/12
+*First release of open source version, featuring all features of play store app version 1.2.1

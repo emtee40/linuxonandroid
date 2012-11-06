@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- English language file created by Zachary Powell (zacthespack) and Martin Møller (tuxling) -->
+
+<!--
+The lines in this file all look like this:
+
+        <string name="button_back">Back</string>
+
+The only part of that line you have to translate is the word 'Back' (Not the button_back part)
+It's very important that the rest of the line is unchaged.
+
+The correct Danish translation of the above line would look like:
+        <string name="button_back">Tilbage</string>
+
+If you need the ' character you have to write \' for it to work.
+\n is making a new line, så \n\n create a blank line
+
+Remember to change the top comment to the language you translated to and your name.
+And fell free to remove these instructions after you read them.
+
+Thanks for your help, zacthespack & tuxling.
+-->
+
+<resources>
+        <string name="hello">Hallo</string>
+        <string name="app_name">Kompletter Linux Installer</string>
+
+        <!-- Strings used more than one place -->
+        <string name="title_about">Über</string>
+        <string name="title_home">Home</string>
+        <string name="title_search">Suche</string>
+
+        <string name="button_back">Zurück</string>
+        <string name="button_next">Weiter</string>
+        <string name="button_finished">Beenden</string>
+
+        <string name="download_VNC">Herunterladen/Installiere VNCViewer App</string>
+        <string name="download_Term">Herunterladen/Installiere Terminal App</string>
+        <string name="download_sourceforge">Herunterladen über SourceForge</string>
+        <string name="download_Torrent">Torrent Datei herunterladen</string>
+
+        <string name="install_apps_text">Falls noch nicht geschehen, installieren Sie sich während dem das Linux Abbild heruntergeladen wird das Terminal und VNCViewer App aus dem PlayStore.</string>
+        <string name="after_install_text">Klicken Sie, nachdem das Linux Abbild heruntergeladen und beide Apps installiert wurden, auf Weiter</string>
+
+        <!-- Front page buttons -->
+        <string name="frontpage_btn_InstallGuides">Installations-Anleitungen</string>
+        <string name="frontpage_btn_BuildGuides">Bau-Anleitungen</string>
+        <string name="frontpage_btn_Tips">Tipps</string>
+        <string name="frontpage_btn_FAQ">FAQ</string>
+        <string name="frontpage_btn_Changelog">Änderungs Log</string>
+        <string name="frontpage_btn_Launch">Start</string>
+
+        <!-- Strings used on the install guides main menu -->
+        <string name="installGuide_Menu_Intro">Hier finden Sie die Installations-Anleitungen für die unterstützten Linux </string>
+        <string name="installGuide_Menu_Ubuntu10">Ubuntu 10 Installations-Anleitungen</string>
+        <string name="installGuide_Menu_Ubuntu12">Ubuntu 12 Installations-Anleitungen</string>
+        <string name="installGuide_Menu_Backtrack">Backtrack Installations-Anleitungen</string>
+        <string name="installGuide_Menu_Debian">Debian Installations-Anleitungen</string>
+
+        <!-- Strings for ubuntu 10 install guide -->
+        <string name="ubuntu10_download_Script">Download des Boot Scripts</string>
+        <string name="ubuntu10_download_menu_button">Download des Ubuntu Abbilds</string>
+        <string name="ubuntu10_download_Large">Download des Ubuntu Abbilds (grosse Version)</string>
+        <string name="ubuntu10_download_Small">Download des Ubuntu Abbilds (kleine Version)</string>
+
+        <string name="ubuntu10_install_page1">Bevor Sie beginnen können, vergewissern Sie sich, dass sie auf Ihrem Gerät Root Rechte haben (Administratoren-Rechte). Zusätzlich muss ihr Kernel Loop Funktionen (Loop Device) unterstützen! Am besten laufen die Linux Abbilder auf kleineren Roms, welche mehr freien Speicher bieten, um Ubuntu flüssig laufen zu lassen.\n\nAktivieren Sie unter Einstellungen->Applikationen->Entwicklung den Debugging Modus und stellen Sie sicher, dass USB Debugging eingeschaltet ist.\n\nSie benötigen ausserdem mindestens 3,5GB freien Speicherplatz auf der Memory Card (je nach Gerät: dem internen Speicher) für das große Image und 2,5GB für das Kleine.\n\nIst alles erledigt, klicken Sie Weiter. Ist etwas bei ihrem Gerät nicht wie hier beschrieben, kann Ubuntu nicht installiert werden</string>
+        <string name="ubuntu10_install_page2">Beginnen Sie damit, das Ubuntu Image herunterzuladen. Es gibt drei Images: komplett, klein, und minimal. Das komplette Image bringt eine Reihe vorinstallierter Programme mit sich. Das kleine hat weniger vorinstallierte Programme, dauert aber auch wenig lange zum Herunterladen!</string>
+        <string name="ubuntu10_install_page3">Nachdem der Download beendet ist müssen Sie die .zip Datei mit einem Dateimanager Ihrer Wahl in den Ordner ubuntu im Rootverzeichnis der SDCard entpacken (es sollten zwei Dateien sein: ubuntu.img und ubuntu.img.md5).\n\nNun kann Ubuntu gestartet werden. Entweder Sie starten es durch das Startmenü Icon oder Sie platzieren das Ubuntu Widget auf Ihrem Home Bildschirm.\n\nEinstellungen, wie die Bildschirmgröße, können im Startmenü festgelegt werden (auf dem Hauptbildschirm der App).\n\n Nach ein bis zwei Minuten sollten Sie folgende Nachricht sehen: root@localhost:/# Ubuntu läuft, bitte klicken Sie Weiter.\nSehen Sie diese Nachricht nicht, kontrollieren Sie bitte, ob Sie Rootrechte und einen Kernel der Loop Funktionen (Loop Device) unterstützt haben.\nSollten sie immer noch Probleme haben, schauen sie in das FAQ</string>
+        <string name="ubuntu10_install_page4">Der Terminal funktioniert nun wie eine Ubuntu Kommandozeile. Um zur GUI zu verbinden, starten Sie die VNC Viewer App, welche Sie zuvor heruntergeladen haben.\nSetzen sie Ihre IP Adresse auf "localhost" und Port Nummer "5900" und geben Sie das Passwort "ubuntu" ein, dann klicken Sie "Verbinden" und die GUI wird gerendert.\n\n\nACHTUNG: Sind Sie fertig in Ubuntu, müssen Sie "exit" in die Kommandozeile tippen und warten, bis alles heruntergefahren ist.</string>
+        <string name="ubuntu10_image_description">Das große Abbild ist 1,5GB zum herunterladen und nach dem Entpacken 3,5GB gross. Es beinhaltet eine breite Masse an Programmen, von Python bis Open Office. Ungefähr 1,5GB freier Speicher sind für Ihre eigenen Programme.\n\nDas kleine Image ist 500MB zum herunterladen und entpackt 2,5GB gross. Es beinhaltet nur Basisprogramme wie einen Browser und Java. Ungefähr 1,5GB freier Speicher sind für Ihre eigenen Programme.</string>
+
+		<!-- Strings for ubuntu 12 install guide -->
+        <string name="ubuntu12_download_Script">Download des Boot Scripts</string>
+        <string name="ubuntu12_download_menu_button">Download des Ubuntu Abbilds</string>
+        <string name="ubuntu12_download_Large">Download des Ubuntu Abbilds (grosse Version)</string>
+        <string name="ubuntu12_download_Small">Download des Ubuntu Abbilds (kleine Version)</string>
+
+        <string name="ubuntu12_install_page1">Bevor Sie beginnen können, vergewissern Sie sich, dass sie auf Ihrem Gerät Root Rechte haben (Administratoren-Rechte). Zusätzlich muss ihr Kernel Loop Funktionen (Loop Device) unterstützen! Am besten laufen die Linux Abbilder auf kleineren Roms, welche mehr freien Speicher bieten, um Ubuntu flüssig laufen zu lassen.\n\nAktivieren Sie unter Einstellungen->Applikationen->Entwicklung den Debugging Modus und stellen Sie sicher, dass USB Debugging eingeschaltet ist.\n\nSie benötigen ausserdem mindestens 3,5GB freien Speicherplatz auf der Memory Card (je nach Gerät: dem internen Speicher) für das große Image und 2,5GB für das Kleine.\n\nIst alles erledigt, klicken Sie Weiter. Ist etwas bei ihrem Gerät nicht wie hier beschrieben, kann Ubuntu nicht installiert werden</string>
+        <string name="ubuntu12_install_page2">Beginnen Sie damit, das Ubuntu Image herunterzuladen. Es gibt drei Images: komplett, klein, und minimal. Das komplette Image bringt eine Reihe vorinstallierter Programme mit sich. Das kleine hat weniger vorinstallierte Programme, dauert aber auch wenig lange zum Herunterladen!</string>
+        <string name="ubuntu12_install_page3">Nachdem der Download beendet ist müssen Sie die .zip Datei mit einem Dateimanager Ihrer Wahl in den Ordner ubuntu im Rootverzeichnis der SDCard entpacken (es sollten zwei Dateien sein: ubuntu.img und ubuntu.img.md5).\n\nNun kann Ubuntu gestartet werden. Entweder Sie starten es durch das Startmenü Icon oder Sie platzieren das Ubuntu Widget auf Ihrem Home Bildschirm.\n\nEinstellungen, wie die Bildschirmgröße, können im Startmenü festgelegt werden (auf dem Hauptbildschirm der App).\n\n Nach ein bis zwei Minuten sollten Sie folgende Nachricht sehen: root@localhost:/# Ubuntu läuft, bitte klicken Sie Weiter.\nSehen Sie diese Nachricht nicht, kontrollieren Sie bitte, ob Sie Rootrechte und einen Kernel der Loop Funktionen (Loop Device) unterstützt haben.\nSollten sie immer noch Probleme haben, schauen sie in das FAQ</string>
+        <string name="ubuntu12_install_page4">Der Terminal funktioniert nun wie eine Ubuntu Kommandozeile. Um zur GUI zu verbinden, starten Sie die VNC Viewer App, welche Sie zuvor heruntergeladen haben.\nSetzen sie Ihre IP Adresse auf "localhost" und Port Nummer "5900" und geben Sie das Passwort "ubuntu" ein, dann klicken Sie "Verbinden" und die GUI wird gerendert.\n\n\nACHTUNG: Sind Sie fertig in Ubuntu, müssen Sie "exit" in die Kommandozeile tippen und warten, bis alles heruntergefahren ist.</string>
+        <string name="ubuntu12_image_description">Das große Abbild ist 1,5GB zum herunterladen und nach dem Entpacken 3,5GB gross. Es beinhaltet eine breite Masse an Programmen, von Python bis Open Office. Ungefähr 1,5GB freier Speicher sind für Ihre eigenen Programme.\n\nDas kleine Image ist 500MB zum herunterladen und entpackt 2,5GB gross. Es beinhaltet nur Basisprogramme wie einen Browser und Java. Ungefähr 1,5GB freier Speicher sind für Ihre eigenen Programme.</string>
+
+        <!-- Strings for Backtrack install guide -->
+        <string name="backtrack_download_Script">Download des Boot Scripts</string>
+        <string name="backtrack_download_Image">Download des Backtrack Abbilds</string>
+
+        <string name="backtrack_install_page1">Bevor Sie beginnen können, vergewissern Sie sich, dass sie auf Ihrem Gerät Root Rechte haben (Administratoren-Rechte). Zusätzlich muss ihr Kernel Loop Funktionen (Loop Device) unterstützen! Am besten laufen die Linux Abbilder auf kleineren Roms, welche mehr freien Speicher bieten, um Backtrack flüssig laufen zu lassen.\n\nAktivieren Sie unter Einstellungen->Applikationen->Entwicklung den Debugging Modus und stellen Sie sicher, dass USB Debugging eingeschaltet ist.\n\nSie benötigen ausserdem mindestens 3,5GB freien Speicherplatz auf der Memory Card (je nach Gerät: dem internen Speicher) für das große Abbild und 2,5GB für das Kleine.\n\nIst alles erledigt, klicken Sie Weiter. Ist etwas bei ihrem Gerät nicht wie hier beschrieben, kann Backtrack nicht installiert werden</string>
+        <string name="backtrack_install_page2">Beginnen Sie damit, das Backtrack Abbild herunterzuladen. Es gibt drei Abbilder: komplett, klein, und minimal. Das komplette Abbild bringt eine Reihe vorinstallierter Programme mit sich. Das kleine hat weniger vorinstallierte Programme, dauert aber auch wenig lange zum Herunterladen!</string>
+        <string name="backtrack_install_page3">Nachdem der Download beendet ist müssen Sie die .zip Datei mit einem Dateimanager Ihrer Wahl in den Ordner Backtrack im Rootverzeichnis der SDCard entpacken (es sollten zwei Dateien sein: Backtrack.img und Backtrack.img.md5).\n\nNun kann Backtrack gestartet werden. Entweder Sie starten es durch das Startmenü Icon oder Sie platzieren das Backtrack Widget auf Ihrem Home Bildschirm.\n\nEinstellungen, wie die Bildschirmgröße, können im Startmenü festgelegt werden (auf dem Hauptbildschirm der App).\n\n Nach ein bis zwei Minuten sollten Sie folgende Nachricht sehen: root@localhost:/# Backtrack läuft, bitte klicken Sie Weiter.\nSehen Sie diese Nachricht nicht, kontrollieren Sie bitte, ob Sie Rootrechte und einen Kernel der Loop Funktionen (Loop Device) unterstützt haben.\nSollten sie immer noch Probleme haben, schauen sie in das FAQ</string>
+        <string name="backtrack_install_page4">Der Terminal funktioniert nun wie eine Backtrack Kommandozeile. Um zur GUI zu verbinden, starten Sie die VNC Viewer App, welche Sie zuvor heruntergeladen haben.\nSetzen sie Ihre IP Adresse auf "localhost" und Port Nummer "5900" und geben Sie das Passwort "Backtrack" ein, dann klicken Sie "Verbinden" und die GUI wird gerendert.\n\n\nACHTUNG: Sind Sie fertig in Backtrack, müssen Sie "exit" in die Kommandozeile tippen und warten, bis alles heruntergefahren ist.</string>
+        
+        <!-- Strings for Debian install guide -->
+        <string name="debian_download_Script">Download des Boot Scripts</string>
+        <string name="debian_download_menu_button">Download des Debian Abbilds</string>
+        <string name="debian_download_Large">Download des Debian Abbilds (komplett Version)</string>
+        <string name="debian_download_Small">Download des Debian Abbilds (kleine Version)</string>
+        <string name="debian_download_Core">Download des Debian Abbilds (minimal Version)</string>
+
+        <string name="debian_install_page1">Bevor Sie beginnen können, vergewissern Sie sich, dass sie auf Ihrem Gerät Root Rechte haben (Administratoren-Rechte). Zusätzlich muss ihr Kernel Loop Funktionen (Loop Device) unterstützen! Am besten laufen die Linux Abbilder auf kleineren Roms, welche mehr freien Speicher bieten, um Ubuntu flüssig laufen zu lassen.\n\nAktivieren Sie unter Einstellungen->Applikationen->Entwicklung den Debugging Modus und stellen Sie sicher, dass USB Debugging eingeschaltet ist.\n\nSie benötigen ausserdem mindestens 3,5GB freien Speicherplatz auf der Memory Card (je nach Gerät: dem internen Speicher) für das große Abbild und 2,5GB für das Kleine.\n\nIst alles erledigt, klicken Sie Weiter. Ist etwas bei ihrem Gerät nicht wie hier beschrieben, kann Ubuntu nicht installiert werden</string>
+        <string name="debian_install_page2">Beginnen Sie damit, das Ubuntu Abbild herunterzuladen. Es gibt drei Abbilder: komplett, klein, und minimal. Das komplette Abbild bringt eine Reihe vorinstallierter Programme mit sich. Das kleine hat weniger vorinstallierte Programme, dauert aber auch wenig lange zum Herunterladen!</string>
+        <string name="debian_install_page3">Nachdem der Download beendet ist müssen Sie die .zip Datei mit einem Dateimanager Ihrer Wahl in den Ordner ubuntu im Rootverzeichnis der SDCard entpacken (es sollten zwei Dateien sein: ubuntu.img und ubuntu.img.md5).\n\nNun kann Ubuntu gestartet werden. Entweder Sie starten es durch das Startmenü Icon oder Sie platzieren das Ubuntu Widget auf Ihrem Home Bildschirm.\n\nEinstellungen, wie die Bildschirmgröße, können im Startmenü festgelegt werden (auf dem Hauptbildschirm der App).\n\n Nach ein bis zwei Minuten sollten Sie folgende Nachricht sehen: root@localhost:/# Ubuntu läuft, bitte klicken Sie Weiter.\nSehen Sie diese Nachricht nicht, kontrollieren Sie bitte, ob Sie Rootrechte und einen Kernel der Loop Funktionen (Loop Device) unterstützt haben.\nSollten sie immer noch Probleme haben, schauen sie in das FAQ</string>
+        <string name="debian_install_page4">Der Terminal funktioniert nun wie eine Ubuntu Kommandozeile. Um zur GUI zu verbinden, starten Sie die VNC Viewer App, welche Sie zuvor heruntergeladen haben.\nSetzen sie Ihre IP Adresse auf "localhost" und Port Nummer "5900" und geben Sie das Passwort "ubuntu" ein, dann klicken Sie "Verbinden" und die GUI wird gerendert.\n\n\nACHTUNG: Sind Sie fertig in Ubuntu, müssen Sie "exit" in die Kommandozeile tippen und warten, bis alles heruntergefahren ist.</string>
+        <string name="debian_image_description">Sie können zwischen drei Abbildgrößen wählen: Basis, klein und groß.\n\nDas Basis Abbild ist etwa 200MB zum herunterladen und nach dem entpacken 750MB gross. Es enthält nur eine Basis Debian Installation ohne GUI.\n\nDas kleine Abbild ist 600MB zum herunterladen und entpackt 2GB gross. Dieses Abbild beinhaltet ein XFCE GUI und Basisprogramme.\n\nDas große Abbild ist 1GB zum herunterladen und entpackt 3.5GB gross. Es beinhaltet ein XFCE GUI und eine Vielzahl an Programmen, wie z.B. Open Office</string>
+		
+        <!-- Strings used in the download type selector dialog -->
+        <string name="dialog_select_donwload_type_title">Wähle Download Typ</string>
+        <string name="dialog_select_donwload_type_description">Bitte wählen Sie den gewünschten Download Typ. Sie können die Datei per Torrent oder Sourceforge herunterladen.</string>
+        <string name="dialog_button_torrent">Torrent Datei</string>
+        <string name="dialog_button_sourceforge">Von Sourceforge</string>
+        <string name="dialog_button_cancel_download">Download beenden</string>
+
+        <!-- Strings for the build guides -->
+        <string name="buildGuides_Intro">Dies sind die Anleitungen, wie Sie ihre eigenen Linux Distro Abbilder erstellen.\n\n Diese Methoden sind nicht für alle Distros gleich, also lesen Sie die passende Anleitung zu ihrem Distro!</string>
+        <string name="btn_BuildGuide_Ubuntu">Ubuntu Bau-Anleitung</string>
+
+        <!-- Strings for the tips -->
+        <string name="tips_text">Läuft Linux sehr langsam?\n\nWeil Linux über Android läuft, kann es etwas langsam sein. Um das zu ändern, können Sie Ihre CPU übertakten oder eine kleinere ROM verwenden(z.B. eine AOSP ROM) um so mehr RAM für Apps zu lassen.</string>
+
+        <!-- Strings used for the changelog -->
+        <string name="changelog_intro">Die Changelogs sind in drei Teile aufgeteilt, um sich leichter zurecht zu finden.\n(Mit jedem App Update wird eine ganze Menge geändert.)</string>
+        <string name="changelog_button_applog">App Change log</string>
+        <string name="changelog_button_imagelog">Abbild Change log</string>
+        <string name="changelog_button_scriptlog">Skript Change log</string>
+
+        <!-- Strings for the FAQ -->
+        <string name="FAQ_intro">Was ist Ubuntu/Backtrack/Debian?\nUbuntu/Backtrack/Debian sind Linux basierte Betriebssysteme für den PC, mit den hier verwendeten Scripts und Abbildern werden sie aber für Telefone benutzbar. Dies erlaubt Ihnen so ziemlich jede Software für Linux auf Ihrem Telefon auszuführen.\n\nKann ich Ubuntu/Backtrack/Debian upgraden?\nNein, beim Update würde das Image kaputt gehen, aber sie können Programme und Pakete updaten.\n\nBeste Einstellungen für Android VNC Viewer?\nVolle 24-bit Farben funktionieren gut, Input Mode am besten auf Touchpad setzen, weil die GUI nicht besonders Touchscreen freundlich ist, wenn sie klein ist! Wenn sie Touchpad benutzen, funkioniert der Touchscreen wie das Touchpad eines Laptops und ist sehr einfach zu benutzen.\n\nUbuntu/Backtrack/Debian installiert nicht\nWenn Ubuntu/Backtrack/Debian nicht installiert, überprüfen Sie bitte die Liste der bekannten funkionierenden Endgeräte, indem Sie auf den unteren Button klicken, sollte Ihr Gerät nicht dabei sein, schicken Sie mir eine Mail (bitte auf English!) mit Gerätname, Kernel und Androidversion und ich werde Ihnen sobald wie möglich antworten.</string>
+        <string name="FAQ_WorkingDevices">Funktionierende Endgeräte</string>
+        <string name="FAQ_WhatCanIDo">Was kann ich mit Ubuntu/Backtrack/Debian tun?\nDas große Image kommt mit einer Vielzahl von Software, z.B. Open Office und Firefox und viele weitere Desktop Programme, was bedeutet, dass Ihr Androidgerät leicht als vollständiger Computer genutzt werden kann! Sie können außerdem jedes Programm für Linux installieren, das einen ARM Port hat oder unanbhängig von der Architektur ist</string>
+
+        <!-- The about text -->
+        <string name="about_intro">Dieses Projekt begann damit, Ubuntu auf meinem Desire S zu starten und ist seit dem gewachsen!\n\nNun ist es mein Ziel, dieses Projektes Ubuntu so einfach wie möglich zu installieren und zu starten und das auf so vielen Geräten wie möglich. Seit Version 2.0 bin ich diesem Gedanken schon sehr nahe gekommen\n\nDas Team:\nZachary Powell (zacthespack)\nMartin Møller (tuxling)\n\nÜbersetzer:\nEnglisch - Zachary Powell (zacthespack)\nDänisch - Martin Møller (tuxling)\nDeutsch - Pascal Wyss (aivilon)</string>
+
+        <!-- The search text -->
+        <string name="search_intro">Diese Funktion erlaubt Ihnen das suchen, um festzustellen, ob Ihr Gerät/Kernel/Android unterstützt wird, weil die Datenbank noch nicht fertig ist, ist diese Funktion zur Zeit noch inaktiv!</string>
+
+        <!-- Strings for the launcher -->
+        <string name="Launcher_Intro">Dies ist eine neue Ein-Klick-Lösung um Linux zu starten, sodass Sie nicht länger jedes Mal Befehle im Terminal tippen müssen(Wie in den kostenlosen Versionen).\n\nDrücken Sie den Menüknopf auf Ihrem Gerät um die Einstellungen zu ändern.\nSie können entweder eine beliebige Linux Distro von hier aus starten, oder ein Widget auf Ihrem Home Bildschirm hinzufügen(das beim ersten Start nach den Orten der Dateien fragen wird).\n\nDieses neue, verbesserte Ein-Klick Startsystem wurde designt und programmiert von Martin Møller.</string>
+        <string name="Launcher_Intro_Warning">Warnung! Das gewählte Image existiert nicht! Bitte nutzen Sie den Menüknopf, um den Namen zu ändern.</string>
+                <string name="toast_warning_image_not_found">Warnung! Das gewählte Image existiert nicht!</string>
+
+        <string name="toolbox_TitleText">Bitte wählen sie eine Linux Distribution unten aus, um die Einstellungen zu ändern.</string>
+        <string name="button_Configure">Konfiguriere Linux</string>
+
+        <string name="button_StartLinux">Start Linux</string>
+
+        <string name="menu_AddDistro">Hinzufügen</string>
+        <string name="menu_DeleteDistro">Löschen</string>
+        <string name="menu_EditDistro">Bearbeiten</string>
+        <string name="menu_OpenFolder">Ordner öffnen</string>
+        <string name="hint_EnterName">Name hier eingeben</string>
+        <string name="inputLabel_Name">Name</string>
+
+        <!-- Config editor strings -->
+        <string name="title_ConfigureLinux">Konfiguriere</string>
+        <string name="Config_intro">Dies ist der Konfigurationsbildschirm, hier können sie bestimmen, wie das Image gestartet werden soll und verschiedene Einstellungen vornehmen.</string>
+        <string name="config_button_mounts">Konfiguriere mounts</string>
+        <string name="launcher_Label_ImageName">Image</string>
+
+        <string name="check_box_start_vnc">Start VNC Server</string>
+        <string name="check_box_start_ssh">Start SSH Server</string>
+        <string name="config_screen_width">Bildschirm Breite</string>
+        <string name="config_screen_height">Bildschirm Höhe</string>
+
+        <string name="title_ConfigureMounts">Mount Editor</string>
+
+        <string name="button_SaveAndExit">Änderungen speichern</string>
+        <string name="button_mounts_back">Zurück</string>
+        <string name="button_mounts_abort_changes">Abbrechen</string>
+
+        <string name="configure_Mounts_Intro">Unten können Sie Ordner auswählen, die in Linux gemountet werden sollen. Halten sie einen Mount gedrückt um ihn zu bearbeiten und drücken Sie Menü um einen Mount hinzuzufügen/zu löschen, oder die Ansicht zu ändern.</string>
+
+        <string name="label_AndroidPath">Android Pfad</string>
+        <string name="label_LinuxPath">Linux Pfad</string>
+
+
+        <string name="menu_ToggleViewMode">Ändere View Modus</string>
+        <string name="menu_AddMount">Mount hinzufügen</string>
+
+        <string name="mount_editor_viewmode_android">Android Ordner ansehen</string>
+        <string name="mount_editor_viewmode_linux">betrachte Linux Mount Punkte</string>
+        <string name="mount_editor_viewmode_both">Zeige beide an</string>
+
+        <string name="context_menu_edit">Bearbeiten</string>
+        <string name="context_menu_delete">Löschen</string>
+
+        <string name="message_cant_delete_last_profile">Sie können den letzten Eintrag nicht löschen!</string>
+
+        <string name="dialog_delete_distro">Sind sie sicher, dass Sie das Profil löschen möchten?</string>
+        <string name="dialog_delete_mount">Sind sie sicher, dass Sie den Mount löschen möchten?</string>
+
+        <string name="dialog_must_enter_name">Sie müssen einen Namen eingeben!</string>
+        <string name="dialog_changes_saved">Änderungen übernommen</string>
+        <string name="dialog_added">hinzugefügt</string>
+        <string name="dialog_name_already_exist">Name existiert bereits</string>
+
+
+        <string name="dialog_button_ok">OK</string>
+        <string name="dialog_button_cancel">Beenden</string>
+        <string name="dialog_button_yes">Ja</string>
+        <string name="dialog_button_no">Nein</string>
+
+        <string name="dialog_message_deleted">Gelöscht</string>
+        <string name="dialog_message_saved">Gespeichert</string>
+        <string name="dialog_message_aborted">Abgebrochen</string>
+        <string name="dialog_message_mounts_saved">Mounts gespeichert</string>
+        <string name="dialog_message_changes_aborted">Änderungen abgebrochen</string>
+
+        <string name="mounts_editor_popup_hint_linux_path">Öffne Linux Ordner</string>
+        <string name="mounts_editor_popup_hint_android_path">Android Ordner zum Teilen</string>
+
+
+        <!--Strings for the widgets -->
+        <string name="widget_name_debian">Ein-Klick-Start Debian</string>
+        <string name="widget_name_backtrack">Ein-Klick-Start Backtrack</string>
+        <string name="widget_name_ubuntu">Ein-Klick-Start Ubuntu</string>
+
+        <string name="widget_toast_image_not_found">Abbild nicht gefunden!</string>
+
+        <string name="cfg_widget_save">Speichern</string>
+        <string name="cfg_Label_ImagePath">Abbild Name mit vollständigem Pfad</string>
+        <string name="cfg_Label_Path">Pfad</string>
+        <string name="cfg_Label_ScriptName">Skript Name</string>
+        <string name="cfg_Label_Description">Bitte geben Sie den kompletten Linux Abbild Namen ein, inklusive dem Pfad dorthin.\n(Das müssen Sie nur einmal machen)</string>
+
+        <!-- These are used as activities titles -->
+        <string name="content_Description_dummy"></string>
+        <string name="content_Description_logo">Fertigstellen</string>
+        <string name="content_Description_about">Über</string>
+        <string name="content_Description_home">Home</string>
+        <string name="content_Description_search">Suche</string>
+        <string name="content_Description_feature1">Installations Anleitungen</string>
+        <string name="content_Description_feature2">Bau Anleitungen</string>
+        <string name="content_Description_feature3">Tipps</string>
+        <string name="content_Description_feature4">FAQ</string>
+        <string name="content_Description_feature5">Change Logs</string>
+        <string name="content_Description_feature6">Start</string>
+
+        <!-- License checking status messages -->
+    <string name="check_license">Lizenz Überprüfen</string>
+    <string name="checking_license">Überprüfe Lizenz</string>
+    <string name="dont_allow">Erlaube dem Benutzer keinen Zutritt</string>
+    <string name="allow">Erlaube dem Benutzer Zutritt</string>
+    <string name="application_error">Applikations Fehler: %1$s</string>
+
+    <!-- Unlicensed dialog messages -->
+    <string name="unlicensed_dialog_title">Applikation nicht lizensiert</string>
+    <string name="unlicensed_dialog_body">Diese Applikation ist nicht lizensiert. Bitte kaufen Sie sie im Android Market.</string>
+    <string name="unlicensed_dialog_retry_body">Lizenz kann nicht geprüft werden. Überprüfen Sie, ob eine Netzwerkverbindung besteht.</string>
+    <string name="buy_button">App kaufen</string>
+    <string name="retry_button">Wiederholen</string>
+    <string name="quit_button">Ende</string>
+
+        <!-- Strings not shown to normnal users, don't need to be translated! -->
+        <string name="code_error_text">WENN SIE DAS SEHEN; HABEN WIR EINEN FEHLER GEMACHT, BITTE LASSEN SIE UNS DAS WISSEN!</string>
+
+    <string name="title_ConfigureAutoRun">Auto Run Einstellungen</string>
+    <string name="menu_AutoRunConfig">Auto Run Einstellungen</string>
+    <string name="autorun_config_intro">Hier können Sie ein Abbild wählen, dass automatisch startet, wenn Android startet.</string>
+    <string name="autorun_config_checkbox_text">Auto run an</string>
+    <string name="autorun_config_label_text_image">Abbild Name</string>
+
+        <!-- Strings added 05/06-2012 -->
+        <string name="title_ScriptUpdater">Update Skripts</string>
+        <string name="menu_UpdateScripts">Update Skripts</string>
+        <string name="updater_BootIntro">Boot Skript, dies ist das Skript, dass von Starter und Widget benutzt wird</string>
+        <string name="updater_AutoBootIntro">Auto Boot Skript, wird für Auto Start verwendet</string>
+        <string name="updater_Label_InstalledBoot">Installiert:</string>
+        <string name="updater_Label_OnlineBoot">Neueste:</string>
+        <string name="updater_Label_InstalledAutoBoot">Installiert:</string>
+        <string name="updater_Label_OnlineAutoBoot">Neueste:</string>
+        <string name="updater_btn_UpdateBootScript">Update Boot Skript</string>
+        <string name="updater_btn_UpdateAutoBootScript">Update Auto Boot Skript</string>
+
+        <!-- Strings added 08/06-2012 -->
+        <string name="launcer_ImageAlreadyMounted">Ein anderes Abbild ist schon gemountet, wollen Sie in dieses Abbild wechseln?</string>
+        <string name="launcer_StartAborted">Nicht gestartet!</string>
+        <string name="updater_ErrorGettingVersions">Versionsinformation kann nicht vom Server abgerufen werden, überprüfen Sie, ob eine Netzwerkverbindung besteht!</string>
+        <string name="updater_ErrorDownloadingFile">Datei kann nicht heruntergeladen werden,überprüfen Sie, ob eine Netzwerkverbindung besteht!</string>
+        <string name="updater_Btn_Ok">OK</string>
+
+</resources>
