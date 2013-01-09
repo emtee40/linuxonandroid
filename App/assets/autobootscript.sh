@@ -7,7 +7,7 @@
 # Marshall Levin                          #
 # and to everyone at XDA!                 #
 ###########################################
-# $ver: V7.5                              #
+# $ver: V7.6                              #
 ###########################################
 
 ###########################################
@@ -23,7 +23,9 @@ error_exit() {
 # Set up variables                        #
 ###########################################
 if [ -f /data/data/com.zpwebsites.linuxonandroid/files/busybox ]; then
-      export bbox=/data/data/com.zpwebsites.linuxonandroid/files/busybox
+      	export bbox=/data/data/com.zpwebsites.linuxonandroid/files/busybox
+elif [ -f /data/data/com.zpwebsites.linuxonandroid.opensource/files/busybox ]; then
+      	export bbox=/data/data/com.zpwebsites.linuxonandroid.opensource/files/busybox
 else
 	export bbox=/system/xbin/busybox
 fi
