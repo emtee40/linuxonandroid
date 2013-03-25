@@ -6,4 +6,3 @@ the features found within the free version of the market app
 
 Bootscripts - This contains the boot scripts we have created to boot linux on android devices via chroot
 
-Translations - This contains all the translated strings for the app
