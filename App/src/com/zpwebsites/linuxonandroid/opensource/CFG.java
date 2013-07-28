@@ -17,9 +17,9 @@ package com.zpwebsites.linuxonandroid.opensource;
 
 public class CFG {
 
-	public static final String	scriptPath					= "/data/data/com.zpwebsites.linuxonandroid/files/bootscript.sh";
-	public static final String	scriptPath_AutoBoot			= "/data/data/com.zpwebsites.linuxonandroid/files/autobootscript.sh";
-	public static final String	busyBoxPath					= "/data/data/com.zpwebsites.linuxonandroid/files/busybox";
+	public static final String	scriptPath					= "/data/data/com.zpwebsites.linuxonandroid.opensource/files/bootscript.sh";
+	public static final String	scriptPath_AutoBoot			= "/data/data/com.zpwebsites.linuxonandroid.opensource/files/autobootscript.sh";
+	public static final String	busyBoxPath					= "/data/data/com.zpwebsites.linuxonandroid.opensource/files/busybox";
 
 	public static final String	MNT							= "/data/local/mnt"; // This HAS to be the same as $mnt in the boot scripts!
 
